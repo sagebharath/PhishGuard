@@ -1,4 +1,4 @@
-# 🛡️ PhishGuard
+# PhishGuard
 
 **A real-time phishing detection Chrome extension powered by ML-based URL analysis and risk scoring.**
 
@@ -6,7 +6,7 @@ PhishGuard silently analyzes every website you visit and instantly flags phishin
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Real-time URL Analysis** — scans every page on load using 20+ extracted features
 - **ML Risk Scoring** — weighted heuristic model scores URLs from 0–100
@@ -17,7 +17,7 @@ PhishGuard silently analyzes every website you visit and instantly flags phishin
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 ```
 URL Visited
@@ -43,7 +43,7 @@ content.js            ← shows banner on the page
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 PhishGuard/
@@ -67,7 +67,7 @@ PhishGuard/
 
 ---
 
-## 🔍 URL Features Analyzed
+## URL Features Analyzed
 
 | Feature | Description |
 |---|---|
@@ -88,7 +88,7 @@ PhishGuard/
 
 ---
 
-## ⚙️ Installation (Load as Unpacked Extension)
+## Installation (Load as Unpacked Extension)
 
 1. Clone this repo:
    ```bash
@@ -108,7 +108,7 @@ PhishGuard/
 
 ---
 
-## 🤖 Training the ML Model (Optional)
+## Training the ML Model (Optional)
 
 A companion Python script trains a Random Forest classifier on labeled phishing datasets:
 
@@ -121,7 +121,7 @@ python train_model.py
 
 ---
 
-## 🔮 Roadmap
+## Roadmap
 
 - [ ] Integrate Google Safe Browsing API in `reputation.js`
 - [ ] Replace heuristic model with trained `phishguard_model.pkl` via ONNX
@@ -131,7 +131,7 @@ python train_model.py
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **JavaScript** (Chrome Extensions API — Manifest V3)
 - **Python** (scikit-learn, pandas, joblib)
